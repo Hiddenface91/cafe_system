@@ -4,10 +4,16 @@ A high-performance, object-oriented Command Line Interface (CLI) application des
 🌟 Key Features
 Modular Table Management: Supports dynamic scaling of cafe tables with real-time occupancy tracking.
 
-Advanced OOP Architecture: Utilizes Abstract Base Classes (ABC) to enforce a strict product hierarchy (Drinks vs. Food).
+## 🚀 Key Features
+- **Dynamic Order Management:** Real-time calculation of table totals using Python properties.
+- **Robust Error Handling:** Custom exception classes for financial transactions (e.g., `InsufficientFundsError`).
+- **Advanced Architecture:** Utilizes Abstract Base Classes (ABC) for product categorization and Decorators for automated logging.
+- **Strict Typing:** Fully type-hinted codebase for better maintainability and IDE support.
+- **Data Integrity:** Uses @property decorators for calculated fields (like total_sum) to ensure a "single source of truth.
 
-Automated Logging: Implements Python Decorators to monitor system actions without polluting business logic.
+## 🛠️ Technical Stack
+- **Language:** Python 3.10+
+- **Paradigm:** Object-Oriented Programming (OOP)
+- **Patterns:** Decorator Pattern, Factory-like Dictionary Mapping
 
-Data Integrity: Uses @property decorators for calculated fields (like total_sum) to ensure a "single source of truth."
 
-Robust Exception Handling: Custom error classes to manage financial discrepancies and invalid user inputs.
